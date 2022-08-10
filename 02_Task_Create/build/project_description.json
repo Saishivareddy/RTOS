@@ -3,7 +3,7 @@
     "project_path":       "/home/cdac/Desktop/RTOS/02_Task_Create",
     "build_dir":          "/home/cdac/Desktop/RTOS/02_Task_Create/build",
     "config_file":        "/home/cdac/Desktop/RTOS/02_Task_Create/sdkconfig",
-    "config_defaults":    "",
+    "config_defaults":    "/home/cdac/Desktop/RTOS/02_Task_Create/sdkconfig.defaults",
     "app_elf":            "Task_Creation.elf",
     "app_bin":            "Task_Creation.bin",
     "git_revision":       "v5.0-dev-4674-g7bfb89e3b3-dirty",

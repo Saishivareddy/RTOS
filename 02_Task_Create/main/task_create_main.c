@@ -7,6 +7,7 @@ TaskHandle_t serial_task_handle;
 void serial_task(void *data)
 {
     printf("In the Created Task\n");
+    vTaskDelete(NULL);
 }
 
 void app_main()
