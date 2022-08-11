@@ -38,16 +38,6 @@ In the terminal where you are going to use ESP-IDF, run:
 . $HOME/esp/esp-idf/export.sh
 ```
 
-
-
-or for fish (supported only since fish version 3.0.0):
-
-```bash
-. $HOME/esp/esp-idf/export.fish
-```
-
-
-
 Note the space between the leading dot and the path!
 
 If you plan to use esp-idf frequently, you can create an alias for executing `export.sh`:
