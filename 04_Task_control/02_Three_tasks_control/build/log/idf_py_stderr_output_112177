@@ -1,0 +1,63 @@
+[0;33m--- idf_monitor on /dev/ttyUSB2 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008107c: call_start_cpu1 at /home/cdac/esp/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x4008650d: prvTaskIsTaskSuspended at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2104
+[0m
+[0;33m0x4008650a: prvTaskIsTaskSuspended at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2101 (discriminator 1)
+[0m
+[0;33m0x40086cad: vTaskResume at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2152
+[0m
+[0;33m0x400d5290: task_1 at /home/cdac/Desktop/RTOS/04_Task_control/02_Three_tasks_control/main/task_control.c:16 (discriminator 6)
+[0m
+[0;33m0x40087fd1: vPortTaskWrapper at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008107c: call_start_cpu1 at /home/cdac/esp/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x4008650d: prvTaskIsTaskSuspended at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2104
+[0m
+[0;33m0x4008650a: prvTaskIsTaskSuspended at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2101 (discriminator 1)
+[0m
+[0;33m0x40086cad: vTaskResume at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2152
+[0m
+[0;33m0x400d5290: task_1 at /home/cdac/Desktop/RTOS/04_Task_control/02_Three_tasks_control/main/task_control.c:16 (discriminator 6)
+[0m
+[0;33m0x40087fd1: vPortTaskWrapper at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008107c: call_start_cpu1 at /home/cdac/esp/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x4008650d: prvTaskIsTaskSuspended at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2104
+[0m
+[0;33m0x4008650a: prvTaskIsTaskSuspended at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2101 (discriminator 1)
+[0m
+[0;33m0x40086cad: vTaskResume at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2152
+[0m
+[0;33m0x400d5290: task_1 at /home/cdac/Desktop/RTOS/04_Task_control/02_Three_tasks_control/main/task_control.c:16 (discriminator 6)
+[0m
+[0;33m0x40087fd1: vPortTaskWrapper at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008107c: call_start_cpu1 at /home/cdac/esp/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x4008650d: prvTaskIsTaskSuspended at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2104
+[0m
+[0;33m0x4008650a: prvTaskIsTaskSuspended at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2101 (discriminator 1)
+[0m
+[0;33m0x40086cad: vTaskResume at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:2152
+[0m
+[0;33m0x400d5290: task_1 at /home/cdac/Desktop/RTOS/04_Task_control/02_Three_tasks_control/main/task_control.c:16 (discriminator 6)
+[0m
+[0;33m0x40087fd1: vPortTaskWrapper at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008107c: call_start_cpu1 at /home/cdac/esp/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0m
