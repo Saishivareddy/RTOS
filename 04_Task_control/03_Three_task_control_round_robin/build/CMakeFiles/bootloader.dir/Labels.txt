@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/cdac/Desktop/RTOS/04_Task_control/03_Three_task_control_round_robin/build/CMakeFiles/bootloader
+/home/cdac/Desktop/RTOS/04_Task_control/03_Three_task_control_round_robin/build/CMakeFiles/bootloader.rule
+/home/cdac/Desktop/RTOS/04_Task_control/03_Three_task_control_round_robin/build/CMakeFiles/bootloader-complete.rule
+/home/cdac/Desktop/RTOS/04_Task_control/03_Three_task_control_round_robin/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/cdac/Desktop/RTOS/04_Task_control/03_Three_task_control_round_robin/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/cdac/Desktop/RTOS/04_Task_control/03_Three_task_control_round_robin/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/cdac/Desktop/RTOS/04_Task_control/03_Three_task_control_round_robin/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/cdac/Desktop/RTOS/04_Task_control/03_Three_task_control_round_robin/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/cdac/Desktop/RTOS/04_Task_control/03_Three_task_control_round_robin/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/cdac/Desktop/RTOS/04_Task_control/03_Three_task_control_round_robin/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
