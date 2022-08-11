@@ -1,0 +1,123 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008105c: call_start_cpu1 at /home/cdac/esp/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d60b8: task_wdt_isr at /home/cdac/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d48f0: uart_ll_get_txfifo_len at /home/cdac/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h:319 (discriminator 1)
+ (inlined by) uart_tx_char at /home/cdac/esp/esp-idf/components/vfs/vfs_uart.c:156 (discriminator 1)
+[0m
+[0;33m0x400d50c7: uart_write at /home/cdac/esp/esp-idf/components/vfs/vfs_uart.c:209
+[0m
+[0;33m0x400d3fb3: console_write at /home/cdac/esp/esp-idf/components/vfs/vfs_console.c:73
+[0m
+[0;33m0x400d3b7e: esp_vfs_write at /home/cdac/esp/esp-idf/components/vfs/vfs.c:436 (discriminator 4)
+[0m
+[0;33m0x400d73f7: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+[0m
+[0;33m0x400e29b7: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+[0m
+[0;33m0x400de3de: _vfprintf_r at ??:?
+[0m
+[0;33m0x400d759d: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d50fa: task_1 at /home/cdac/Desktop/RTOS/03_Multiple_Task_Creation/main/tasks.c:13 (discriminator 1)
+[0m
+[0;33m0x40087d49: vPortTaskWrapper at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842aa: esp_crosscore_isr at /home/cdac/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400845a7: xt_utils_wait_for_intr at /home/cdac/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/cdac/esp/esp-idf/components/esp_hw_support/cpu.c:101
+[0m
+[0;33m0x400d1907: esp_vApplicationIdleHook at /home/cdac/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+[0m
+[0;33m0x4008690e: prvIdleTask at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4157 (discriminator 1)
+[0m
+[0;33m0x40087d49: vPortTaskWrapper at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d60b8: task_wdt_isr at /home/cdac/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d48ed: uart_tx_char at /home/cdac/esp/esp-idf/components/vfs/vfs_uart.c:154
+[0m
+[0;33m0x400d50c7: uart_write at /home/cdac/esp/esp-idf/components/vfs/vfs_uart.c:209
+[0m
+[0;33m0x400d3fb3: console_write at /home/cdac/esp/esp-idf/components/vfs/vfs_console.c:73
+[0m
+[0;33m0x400d3b7e: esp_vfs_write at /home/cdac/esp/esp-idf/components/vfs/vfs.c:436 (discriminator 4)
+[0m
+[0;33m0x400d73f7: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+[0m
+[0;33m0x400e29b7: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+[0m
+[0;33m0x400de3de: _vfprintf_r at ??:?
+[0m
+[0;33m0x400d759d: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d50fa: task_1 at /home/cdac/Desktop/RTOS/03_Multiple_Task_Creation/main/tasks.c:13 (discriminator 1)
+[0m
+[0;33m0x40087d49: vPortTaskWrapper at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842aa: esp_crosscore_isr at /home/cdac/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400845a7: xt_utils_wait_for_intr at /home/cdac/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/cdac/esp/esp-idf/components/esp_hw_support/cpu.c:101
+[0m
+[0;33m0x400d1907: esp_vApplicationIdleHook at /home/cdac/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+[0m
+[0;33m0x4008690e: prvIdleTask at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4157 (discriminator 1)
+[0m
+[0;33m0x40087d49: vPortTaskWrapper at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d60b8: task_wdt_isr at /home/cdac/esp/esp-idf/components/esp_system/task_wdt.c:391 (discriminator 3)
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d48f5: uart_ll_get_txfifo_len at /home/cdac/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h:319 (discriminator 1)
+ (inlined by) uart_tx_char at /home/cdac/esp/esp-idf/components/vfs/vfs_uart.c:156 (discriminator 1)
+[0m
+[0;33m0x400d50c7: uart_write at /home/cdac/esp/esp-idf/components/vfs/vfs_uart.c:209
+[0m
+[0;33m0x400d3fb3: console_write at /home/cdac/esp/esp-idf/components/vfs/vfs_console.c:73
+[0m
+[0;33m0x400d3b7e: esp_vfs_write at /home/cdac/esp/esp-idf/components/vfs/vfs.c:436 (discriminator 4)
+[0m
+[0;33m0x400d73f7: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+[0m
+[0;33m0x400e29b7: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+[0m
+[0;33m0x400de3de: _vfprintf_r at ??:?
+[0m
+[0;33m0x400d759d: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d50fa: task_1 at /home/cdac/Desktop/RTOS/03_Multiple_Task_Creation/main/tasks.c:13 (discriminator 1)
+[0m
+[0;33m0x40087d49: vPortTaskWrapper at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400842aa: esp_crosscore_isr at /home/cdac/esp/esp-idf/components/esp_system/crosscore_int.c:95
+[0m
+[0;33m0x40082659: _xt_lowint1 at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400845a7: xt_utils_wait_for_intr at /home/cdac/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/cdac/esp/esp-idf/components/esp_hw_support/cpu.c:101
+[0m
+[0;33m0x400d1907: esp_vApplicationIdleHook at /home/cdac/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+[0m
+[0;33m0x4008690e: prvIdleTask at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4157 (discriminator 1)
+[0m
+[0;33m0x40087d49: vPortTaskWrapper at /home/cdac/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0m
