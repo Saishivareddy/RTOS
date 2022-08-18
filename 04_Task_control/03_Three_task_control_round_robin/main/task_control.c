@@ -56,7 +56,7 @@ void task_3(void *data)
         count += 1;
         if (count > 5)
         {
-            printf("Task 3 Resumed\n");
+            printf("Task 1 Resumed\n");
             vTaskResume(task1_handle);
             vTaskSuspend(task3_handle);
             count = 0;
