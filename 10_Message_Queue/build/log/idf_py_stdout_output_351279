@@ -1,0 +1,407 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7012
+load:0x40078000,len:15384
+load:0x40080400,len:3816
+entry 0x40080648
+[0;32mI (27) boot: ESP-IDF v5.1-dev-224-g4d14c2ef2d 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time 17:39:05[0m
+[0;32mI (27) boot: chip revision: V100[0m
+[0;32mI (31) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (102) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=07994h ( 31124) map[0m
+[0;32mI (122) esp_image: segment 1: paddr=000179bc vaddr=3ffb0000 size=028b4h ( 10420) load[0m
+[0;32mI (126) esp_image: segment 2: paddr=0001a278 vaddr=40080000 size=05da0h ( 23968) load[0m
+[0;32mI (140) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=156dch ( 87772) map[0m
+[0;32mI (172) esp_image: segment 4: paddr=00035704 vaddr=40085da0 size=05ad8h ( 23256) load[0m
+[0;32mI (181) esp_image: segment 5: paddr=0003b1e4 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (188) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (188) boot: Disabling RNG early entropy source...[0m
+[0;32mI (202) cpu_start: Pro cpu up.[0m
+[0;32mI (203) cpu_start: Starting app cpu, entry point is 0x40081070[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (217) cpu_start: Pro cpu start user code[0m
+[0;32mI (217) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (217) cpu_start: Application information:[0m
+[0;32mI (222) cpu_start: Project name:     Message_Queue[0m
+[0;32mI (227) cpu_start: App version:      905315a-dirty[0m
+[0;32mI (233) cpu_start: Compile time:     Aug 19 2022 17:38:56[0m
+[0;32mI (239) cpu_start: ELF file SHA256:  2f45800abeff6dee...[0m
+[0;32mI (245) cpu_start: ESP-IDF:          v5.1-dev-224-g4d14c2ef2d[0m
+[0;32mI (251) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (258) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (264) heap_init: At 3FFB31B0 len 0002CE50 (179 KiB): DRAM[0m
+[0;32mI (271) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (277) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (283) heap_init: At 4008B878 len 00014788 (81 KiB): IRAM[0m
+[0;32mI (291) spi_flash: detected chip: generic[0m
+[0;32mI (294) spi_flash: flash io: dio[0m
+[0;33mW (298) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (312) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+Main Task
+Task 1
+Task 2
+Task 3
+Task 3: Received Data : 101
+Task 3: Received Data : 201
+Task 4
+Task 4: Received Data : 202
+Task 4: Received Data : 203
+Task 4: Received Data : 204
+Task 4: Received Data : 205
+Task 4: Received Data : 206
+Task 4: Received Data : 207
+Task 4: Received Data : 208
+Task 4: Received Data : 209
+Task 4: Received Data : 210
+Task 4: Received Data : 211
+Task 4: Received Data : 102
+Task 4: Received Data : 212
+Task 4: Received Data : 213
+Task 4: Received Data : 214
+Task 4: Received Data : 215
+Task 4: Received Data : 216
+Task 4: Received Data : 217
+Task 4: Received Data : 218
+Task 4: Received Data : 219
+Task 4: Received Data : 220
+Task 4: Received Data : 221
+Task 4: Received Data : 103
+Task 4: Received Data : 222
+Task 4: Received Data : 223
+Task 4: Received Data : 224
+Task 4: Received Data : 225
+Task 4: Received Data : 226
+Task 4: Received Data : 227
+Task 4: Received Data : 228
+Task 4: Received Data : 229
+Task 4: Received Data : 230
+Task 4: Received Data : 231
+Task 4: Received Data : 104
+Task 4: Received Data : 232
+Task 4: Received Data : 233
+Task 4: Received Data : 234
+Task 4: Received Data : 235
+Task 4: Received Data : 236
+Task 4: Received Data : 237
+Task 4: Received Data : 238
+Task 4: Received Data : 239
+Task 4: Received Data : 240
+Task 4: Received Data : 241
+Task 4: Received Data : 105
+Task 4: Received Data : 242
+Task 4: Received Data : 243
+Task 4: Received Data : 244
+Task 4: Received Data : 245
+Task 4: Received Data : 246
+Task 4: Received Data : 247
+Task 4: Received Data : 248
+Task 4: Received Data : 249
+Task 4: Received Data : 250
+Task 4: Received Data : 251
+Task 4: Received Data : 106
+Task 4: Received Data : 252
+Task 4: Received Data : 253
+Task 4: Received Data : 254
+Task 4: Received Data : 255
+Task 4: Received Data : 256
+Task 4: Received Data : 257
+Task 4: Received Data : 258
+Task 4: Received Data : 259
+Task 4: Received Data : 260
+Task 4: Received Data : 261
+Task 4: Received Data : 107
+Task 4: Received Data : 262
+Task 4: Received Data : 263
+Task 4: Received Data : 264
+Task 4: Received Data : 265
+Task 4: Received Data : 266
+Task 4: Received Data : 267
+Task 4: Received Data : 268
+Task 4: Received Data : 269
+Task 4: Received Data : 270
+Task 4: Received Data : 271
+Task 4: Received Data : 108
+Task 4: Received Data : 272
+Task 4: Received Data : 273
+Task 4: Received Data : 274
+Task 4: Received Data : 275
+Task 4: Received Data : 276
+Task 4: Received Data : 277
+Task 4: Received Data : 278
+Task 4: Received Data : 279
+Task 4: Received Data : 280
+Task 4: Received Data : 281
+Task 4: Received Data : 109
+Task 4: Received Data : 282
+Task 4: Received Data : 283
+Task 4: Received Data : 284
+Task 4: Received Data : 285
+Task 4: Received Data : 286
+Task 4: Received Data : 287
+Task 4: Received Data : 288
+Task 4: Received Data : 289
+Task 4: Received Data : 290
+Task 4: Received Data : 291
+Task 4: Received Data : 110
+Task 4: Received Data : 292
+Task 4: Received Data : 293
+Task 4: Received Data : 294
+Task 4: Received Data : 295
+Task 4: Received Data : 296
+Task 4: Received Data : 297
+Task 4: Received Data : 298
+Task 4: Received Data : 299
+Task 4: Received Data : 300
+Task 4: Received Data : 301
+Task 4: Received Data : 111
+Task 4: Received Data : 302
+Task 4: Received Data : 303
+Task 4: Received Data : 304
+Task 4: Received Data : 305
+Task 4: Received Data : 306
+Task 4: Received Data : 307
+Task 4: Received Data : 308
+Task 4: Received Data : 309
+Task 4: Received Data : 310
+Task 4: Received Data : 311
+Task 4: Received Data : 112
+Task 4: Received Data : 312
+Task 4: Received Data : 313
+Task 4: Received Data : 314
+Task 4: Received Data : 315
+Task 4: Received Data : 316
+Task 4: Received Data : 317
+Task 4: Received Data : 318
+Task 4: Received Data : 319
+Task 4: Received Data : 320
+Task 4: Received Data : 321
+Task 4: Received Data : 113
+Task 4: Received Data : 322
+Task 4: Received Data : 323
+Task 4: Received Data : 324
+Task 4: Received Data : 325
+Task 4: Received Data : 326
+Task 4: Received Data : 327
+Task 4: Received Data : 328
+Task 4: Received Data : 329
+Task 4: Received Data : 330
+Task 4: Received Data : 331
+Task 4: Received Data : 114
+Task 4: Received Data : 332
+Task 4: Received Data : 333
+Task 4: Received Data : 334
+Task 4: Received Data : 335
+Task 4: Received Data : 336
+Task 4: Received Data : 337
+Task 4: Received Data : 338
+Task 4: Received Data : 339
+Task 4: Received Data : 340
+Task 4: Received Data : 341
+Task 4: Received Data : 115
+Task 4: Received Data : 342
+Task 4: Received Data : 343
+Task 4: Received Data : 344
+Task 4: Received Data : 345
+Task 4: Received Data : 346
+Task 4: Received Data : 347
+Task 4: Received Data : 348
+Task 4: Received Data : 349
+Task 4: Received Data : 350
+Task 4: Received Data : 351
+Task 4: Received Data : 116
+Task 4: Received Data : 352
+Task 4: Received Data : 353
+Task 4: Received Data : 354
+Task 4: Received Data : 355
+Task 4: Received Data : 356
+Task 4: Received Data : 357
+Task 4: Received Data : 358
+Task 4: Received Data : 359
+Task 4: Received Data : 360
+Task 4: Received Data : 361
+Task 4: Received Data : 117
+Task 4: Received Data : 362
+Task 4: Received Data : 363
+Task 4: Received Data : 364
+Task 4: Received Data : 365
+Task 4: Received Data : 366
+Task 4: Received Data : 367
+Task 4: Received Data : 368
+Task 4: Received Data : 369
+Task 4: Received Data : 370
+Task 4: Received Data : 371
+Task 4: Received Data : 118
+Task 4: Received Data : 372
+Task 4: Received Data : 373
+Task 4: Received Data : 374
+Task 4: Received Data : 375
+Task 4: Received Data : 376
+Task 4: Received Data : 377
+Task 4: Received Data : 378
+Task 4: Received Data : 379
+Task 4: Received Data : 380
+Task 4: Received Data : 381
+Task 4: Received Data : 119
+Task 4: Received Data : 382
+Task 4: Received Data : 383
+Task 4: Received Data : 384
+Task 4: Received Data : 385
+Task 4: Received Data : 386
+Task 4: Received Data : 387
+Task 4: Received Data : 388
+Task 4: Received Data : 389
+Task 4: Received Data : 390
+Task 4: Received Data : 391
+Task 4: Received Data : 120
+Task 4: Received Data : 392
+Task 4: Received Data : 393
+Task 4: Received Data : 394
+Task 4: Received Data : 395
+Task 4: Received Data : 396
+Task 4: Received Data : 397
+Task 4: Received Data : 398
+Task 4: Received Data : 399
+Task 4: Received Data : 400
+Task 4: Received Data : 401
+Task 4: Received Data : 121
+Task 4: Received Data : 402
+Task 4: Received Data : 403
+Task 4: Received Data : 404
+Task 4: Received Data : 405
+Task 4: Received Data : 406
+Task 4: Received Data : 407
+Task 4: Received Data : 408
+Task 4: Received Data : 409
+Task 4: Received Data : 410
+Task 4: Received Data : 411
+Task 4: Received Data : 122
+Task 4: Received Data : 412
+Task 4: Received Data : 413
+Task 4: Received Data : 414
+Task 4: Received Data : 415
+Task 4: Received Data : 416
+Task 4: Received Data : 417
+Task 4: Received Data : 418
+Task 4: Received Data : 419
+Task 4: Received Data : 420
+Task 4: Received Data : 421
+Task 4: Received Data : 123
+Task 4: Received Data : 422
+Task 4: Received Data : 423
+Task 4: Received Data : 424
+Task 4: Received Data : 425
+Task 4: Received Data : 426
+Task 4: Received Data : 427
+Task 4: Received Data : 428
+Task 4: Received Data : 429
+Task 4: Received Data : 430
+Task 4: Received Data : 431
+Task 4: Received Data : 124
+Task 4: Received Data : 432
+Task 4: Received Data : 433
+Task 4: Received Data : 434
+Task 4: Received Data : 435
+Task 4: Received Data : 436
+Task 4: Received Data : 437
+Task 4: Received Data : 438
+Task 4: Received Data : 439
+Task 4: Received Data : 440
+Task 4: Received Data : 441
+Task 4: Received Data : 125
+Task 4: Received Data : 442
+Task 4: Received Data : 443
+Task 4: Received Data : 444
+Task 4: Received Data : 445
+Task 4: Received Data : 446
+Task 4: Received Data : 447
+Task 4: Received Data : 448
+Task 4: Received Data : 449
+Task 4: Received Data : 450
+Task 4: Received Data : 451
+Task 4: Received Data : 126
+Task 4: Received Data : 452
+Task 4: Received Data : 453
+Task 4: Received Data : 454
+Task 4: Received Data : 455
+Task 4: Received Data : 456
+Task 4: Received Data : 457
+Task 4: Received Data : 458
+Task 4: Received Data : 459
+Task 4: Received Data : 460
+Task 4: Received Data : 461
+Task 4: Received Data : 127
+Task 4: Received Data : 462
+Task 4: Received Data : 463
+Task 4: Received Data : 464
+Task 4: Received Data : 465
+Task 4: Received Data : 466
+Task 4: Received Data : 467
+Task 4: Received Data : 468
+Task 4: Received Data : 469
+Task 4: Received Data : 470
+Task 4: Received Data : 471
+Task 4: Received Data : 128
+Task 4: Received Data : 472
+Task 4: Received Data : 473
+Task 4: Received Data : 474
+Task 4: Received Data : 475
+Task 4: Received Data : 476
+Task 4: Received Data : 477
+Task 4: Received Data : 478
+Task 4: Received Data : 479
+Task 4: Received Data : 480
+Task 4: Received Data : 481
+Task 4: Received Data : 129
+Task 4: Received Data : 482
+Task 4: Received Data : 483
+Task 4: Received Data : 484
+Task 4: Received Data : 485
+Task 4: Received Data : 486
+Task 4: Received Data : 487
+Task 4: Received Data : 488
+Task 4: Received Data : 489
+Task 4: Received Data : 490
+Task 4: Received Data : 491
+Task 4: Received Data : 130
+Task 4: Received Data : 492
+Task 4: Received Data : 493
+Task 4: Received Data : 494
+Task 4: Received Data : 495
+Task 4: Received Data : 496
+Task 4: Received Data : 497
+Task 4: Received Data : 498
+Task 4: Received Data : 499
+Task 4: Received Data : 500
+Task 4: Received Data : 501
+Task 4: Received Data : 131
+Task 4: Received Data : 502
+Task 4: Received Data : 503
+Task 4: Received Data : 504
+Task 4: Received Data : 505
+Task 4: Received Data : 506
+Task 4: Received Data : 507
+Task 4: Received Data : 508
+Task 4: Received Data : 509
+Task 4: Received Data : 510
+Task 4: Received Data : 511
+Task 4: Received Data : 132
+Task 4: Received Data : 512
+Task 4: Received Data : 513
+Task 4: Received Data : 514
+Task 4: Received Data : 515
